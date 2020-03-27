@@ -1,0 +1,116 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+#background{
+	width:100%;
+	height:100%;
+}
+#logo{
+	position:Absolute;
+	top:0;
+	width:130px;
+	height:36px;
+	padding:40px 60px;
+	
+}
+#login{
+	position:Absolute;
+	top:20%;
+	right:40%;
+	background-image: linear-gradient(#36393f, #3b3838);
+	width:450px;
+	height:490px;
+	border-radius: 6px;
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+#login{
+	top:20%;
+	right:40%;
+	border-radius: 6px;
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+#esquerda{
+	margin-left:20px;
+	width:50%;
+	height:90%;
+}
+#textotitulo{
+	text-align:Center;
+	color:#fff;
+	font-size:26px;
+	line-height:36px;
+	margin-bottom:8px;
+	font-weight:300;
+	outline:0;
+}
+#textobaixo{
+	color: #72767d;
+	text-align:Center;
+	font-size:18px;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+#inputlogin{
+	padding:10px;
+	height:40px;
+	font-size:16px;
+	width:290px;
+	border-radius:3px;
+	border-style:None;
+	background-color:#272729;
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+#inputlogin:hover{
+	box-shadow: 0px 0px 10px 2px rgba(114,137,218,1);
+	color:White;
+}
+#divisor{
+	margin-top:40px;
+}
+
+#separador{
+	margin-top:10px;
+	margin-bottom:5px;
+	color:#72767d;
+	font-size:13px;
+	line-height: 22px;
+}
+
+#btnEntrar{
+	background-color:#7289da;
+	text-decoration:None;
+	border-style:None;
+	height:50px;
+	width:290px;
+	color: White;
+	border-radius:3px;
+}
+#btnEntrar:hover{
+	box-shadow: inset 0px 0px 26px 0px rgba(17,17,18,0.23);
+}
+
+#Esqueceuasenha{
+	font-size:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#7289da;
+}
+
+#conta{
+	font-size:16px;
+	margin-top:9px;
+	margin-bottom:5px;
+	color:#7289da;
+}
+#qrcode{
+	display:Absolute;
+	top:0;
+	height:150px;
+}
+#centralizador{
+	padding-left:16%;
+}
